@@ -1,0 +1,6 @@
+2025-07-14 18:50:18 - orangehrm_test_invalid_login - INFO - Logger initialized for orangehrm_test_invalid_login
+2025-07-14 18:50:23 - orangehrm_test_invalid_login - INFO - Entering text 'wrong' in element: ('name', 'username')
+2025-07-14 18:50:23 - orangehrm_test_invalid_login - INFO - Entering text 'credentials' in element: ('name', 'password')
+2025-07-14 18:50:24 - orangehrm_test_invalid_login - INFO - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-07-14 18:50:26 - orangehrm_test_invalid_login - INFO - Got text 'Invalid credentials' from element: ('xpath', "//div[contains(@class, 'oxd-alert')]")
+2025-07-14 18:50:26 - orangehrm_test_invalid_login - INFO - test_invalid_login completed successfully
