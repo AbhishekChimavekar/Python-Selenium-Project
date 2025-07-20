@@ -1,5 +1,4 @@
 import pytest
-
 from orangehrm_automation.pages.pim_page import PimPage
 from orangehrm_automation.utilities.logger import setup_logger, set_current_test_name
 from orangehrm_automation.pages.login_page import LoginPage
