@@ -23,12 +23,12 @@ class BasePage:
                     self.logger.info(f"Clicking on element: {locator}")
                     element.click()
                 except Exception as e:
-                    self.logger.info(f"Enable to Click on element: {locator}. Error: {str(e)}")
+                    self.logger.info(f"Unable to Click on element: {locator}. Error: {str(e)}")
             else:
                 self.logger.info(f"Failed to scroll element into view: {locator}")
                 raise
         except Exception as e:
-            self.logger.info(f"Enable to Click on element: {locator}. Error: {str(e)}")
+            self.logger.info(f"Unable to Click on element: {locator}. Error: {str(e)}")
 
     def send_keys(self, locator, text):
         try:
@@ -37,7 +37,7 @@ class BasePage:
             element.clear()
             element.send_keys(text)
         except Exception as e:
-            self.logger.info(f"Enable to enter text '{text}' into element: {locator}. Error: {str(e)}")
+            self.logger.info(f"Unable to enter text '{text}' into element: {locator}. Error: {str(e)}")
 
     def get_text(self, locator):
         try:
@@ -46,7 +46,7 @@ class BasePage:
             self.logger.info(f"Got text '{text}' from element: {locator}")
             return text
         except Exception as e:
-            self.logger.info(f"Enable to get text for element: {locator}. Error: {str(e)}")
+            self.logger.info(f"Unable to get text for element: {locator}. Error: {str(e)}")
 
     def visibility(self, locator):
         try:

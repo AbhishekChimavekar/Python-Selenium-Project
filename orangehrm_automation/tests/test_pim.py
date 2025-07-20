@@ -40,3 +40,13 @@ def test_edit_user(setup):
     logger.info("test_edit_user completed successfully")
 
 
+def test_delete_user(setup):
+    set_current_test_name("test_delete_user")
+    logger = setup_logger()
+    logger.info("Starting test_delete_user")
+    driver = setup
+    login_page = LoginPage(driver)
+    login_page.login("Admin", "admin123")
+    pim_page = PimPage(driver)
+    pim_page.delete_employee("Victor Van")
+    logger.info("test_delete_user completed successfully")
