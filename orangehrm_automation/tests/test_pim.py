@@ -13,23 +13,23 @@ def setup():
     driver.quit()
 
 
-def test_add_user(setup):
-    set_current_test_name("test_add_user")
+def test_add_employee(setup):
+    set_current_test_name("test_add_employee")
     logger = setup_logger()
-    logger.info("Starting test_add_user")
+    logger.info("Starting test_add_employee")
     driver = setup
     login_page = LoginPage(driver)
     login_page.login("Admin", "admin123")
     pim_page = PimPage(driver)
-    pim_page.add_user("Victor", "Van", "Doom")
+    pim_page.add_employee("Victor", "Van", "Doom")
     assert "viewpersonaldetails" in driver.current_url.lower()
-    logger.info("test_add_user completed successfully")
+    logger.info("test_add_employee completed successfully")
 
 
-def test_edit_user(setup):
-    set_current_test_name("test_edit_user")
+def test_edit_employee(setup):
+    set_current_test_name("test_edit_employee")
     logger = setup_logger()
-    logger.info("Starting test_edit_user")
+    logger.info("Starting test_edit_employee")
     driver = setup
     login_page = LoginPage(driver)
     login_page.login("Admin", "admin123")
@@ -37,16 +37,16 @@ def test_edit_user(setup):
     pim_page.edit_employee("Victor Van")
     pim_page.edit_personal_details("Vincent", "Van", "Doom","7",
                                    "Oct", "2020", "7", "Oct", "1999")
-    logger.info("test_edit_user completed successfully")
+    logger.info("test_edit_employee completed successfully")
 
 
-def test_delete_user(setup):
-    set_current_test_name("test_delete_user")
+def test_delete_employee(setup):
+    set_current_test_name("test_delete_employee")
     logger = setup_logger()
-    logger.info("Starting test_delete_user")
+    logger.info("Starting test_delete_employee")
     driver = setup
     login_page = LoginPage(driver)
     login_page.login("Admin", "admin123")
     pim_page = PimPage(driver)
     pim_page.delete_employee("Victor Van")
-    logger.info("test_delete_user completed successfully")
+    logger.info("test_delete_employee completed successfully")

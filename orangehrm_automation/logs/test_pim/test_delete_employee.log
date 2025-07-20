@@ -1,0 +1,7 @@
+2025-07-20 16:55:53 - orangehrm_test_delete_employee - INFO - Logger initialized for orangehrm_test_delete_employee
+2025-07-20 16:55:55 - orangehrm_test_delete_employee - INFO - Clicking on element: ('xpath', "//span[normalize-space()='PIM']")
+2025-07-20 16:55:57 - orangehrm_test_delete_employee - INFO - Entering text 'Victor Van' in element: ('xpath', "//label[normalize-space()='Employee Name']/../following-sibling::div//input")
+2025-07-20 16:55:59 - orangehrm_test_delete_employee - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[contains(text(),'Victor Van')]")
+2025-07-20 16:56:00 - orangehrm_test_delete_employee - INFO - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-07-20 16:56:01 - orangehrm_test_delete_employee - INFO - Clicking on element: ('xpath', "//i[contains(@class,'trash')]")
+2025-07-20 16:56:01 - orangehrm_test_delete_employee - INFO - test_delete_employee completed successfully

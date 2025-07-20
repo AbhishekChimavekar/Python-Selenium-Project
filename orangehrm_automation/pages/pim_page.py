@@ -16,7 +16,7 @@ class PimPage(BasePage):
     EDIT_ICON = (By.XPATH, "//i[contains(@class,'pencil')]")
     DELETE_ICON = (By.XPATH, "//i[contains(@class,'trash')]")
 
-    # Add User
+    # Add Employee
     ADD_EMPLOYEE = (By.XPATH, "//li/a[normalize-space()='Add Employee']")
     FIRST_NAME = (By.NAME, "firstName")
     MIDDLE_NAME = (By.NAME, "middleName")
@@ -41,7 +41,7 @@ class PimPage(BasePage):
     GENDER_SELECT = (By.XPATH, "//label[normalize-space()='Male']/span")
     PERSONAL_DETAIL_SAVE = (By.XPATH, "//h6[normalize-space()='Personal Details']/..//button[normalize-space()='Save']")
 
-    # Add User
+    # Add Employee
     def click_pim_tab(self):
         self.click(self.PIM_TAB)
 
@@ -69,7 +69,7 @@ class PimPage(BasePage):
         else:
             return False
 
-    def add_user(self, first_name, middle_name, last_name):
+    def add_employee(self, first_name, middle_name, last_name):
         self.click_pim_tab()
         self.click_add_employee()
         self.enter_first_name(first_name)
