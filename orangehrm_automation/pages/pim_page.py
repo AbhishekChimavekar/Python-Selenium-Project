@@ -4,6 +4,10 @@ from orangehrm_automation.pages.base_page import BasePage
 
 
 class PimPage(BasePage):
+
+    def __init__(self, driver, logger):
+        super().__init__(driver, logger)
+
     # Locator
 
     PIM_TAB = (By.XPATH, "//span[normalize-space()='PIM']")

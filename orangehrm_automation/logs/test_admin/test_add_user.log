@@ -1,17 +1,29 @@
-2025-07-27 16:35:09 - orangehrm_test_add_user - INFO - Logger initialized for orangehrm_test_add_user
-2025-07-27 16:35:10 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//span[normalize-space()='Admin']")
-2025-07-27 16:35:11 - orangehrm_test_add_user - INFO - The element '('xpath', "//h5[normalize-space()='System Users']")' is visible.
-2025-07-27 16:35:11 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//div[@class='orangehrm-header-container']/button")
-2025-07-27 16:35:12 - orangehrm_test_add_user - INFO - The element '('xpath', "//h6[normalize-space()='Add User']")' is visible.
-2025-07-27 16:35:12 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//label[contains(text(),'User Role')]/../../..//div[@class='oxd-select-text-input']")
-2025-07-27 16:35:13 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[normalize-space()='ESS']")
-2025-07-27 16:35:13 - orangehrm_test_add_user - INFO - Entering text 'Wade Winston Wilson' in element: ('xpath', "//label[text()='Employee Name']/../../..//input")
-2025-07-27 16:35:14 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[contains(text(),'Wade Winston Wilson')]")
-2025-07-27 16:35:14 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//label[contains(text(),'Status')]/../../..//div[@class='oxd-select-text-input']")
-2025-07-27 16:35:15 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[normalize-space()='Enabled']")
-2025-07-27 16:35:15 - orangehrm_test_add_user - INFO - Entering text 'Deadpool' in element: ('xpath', "//label[text()='Username']/../../..//input")
-2025-07-27 16:35:15 - orangehrm_test_add_user - INFO - Entering text 'deadpool@1' in element: ('xpath', "//label[text()='Password']/../../..//input[@type='password']")
-2025-07-27 16:35:15 - orangehrm_test_add_user - INFO - Entering text 'deadpool@1' in element: ('xpath', "//label[text()='Confirm Password']/../../..//input[@type='password']")
-2025-07-27 16:35:15 - orangehrm_test_add_user - INFO - Clicking on element: ('xpath', "//button[normalize-space()='Save']")
-2025-07-27 16:35:17 - orangehrm_test_add_user - INFO - The element '('xpath', "//div/p[normalize-space()='Success']")' is visible.
-2025-07-27 16:35:17 - orangehrm_test_add_user - INFO - test_add_user completed successfully
+2025-07-27 18:19:56 - orangehrm.test_admin.test_add_user - INFO - Logger initialized for test_add_user
+2025-07-27 18:19:56 - orangehrm.test_admin.test_add_user - INFO - Starting test_add_user
+2025-07-27 18:20:00 - orangehrm.test_admin.test_add_user - INFO - Entering text 'Admin' in element: ('name', 'username')
+2025-07-27 18:20:00 - orangehrm.test_admin.test_add_user - INFO - Entering text 'admin123' in element: ('name', 'password')
+2025-07-27 18:20:01 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-07-27 18:20:03 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//span[normalize-space()='PIM']")
+2025-07-27 18:20:05 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//li/a[normalize-space()='Add Employee']")
+2025-07-27 18:20:07 - orangehrm.test_admin.test_add_user - INFO - Entering text 'Peter' in element: ('name', 'firstName')
+2025-07-27 18:20:07 - orangehrm.test_admin.test_add_user - INFO - Entering text 'Ben' in element: ('name', 'middleName')
+2025-07-27 18:20:07 - orangehrm.test_admin.test_add_user - INFO - Entering text 'Parker' in element: ('name', 'lastName')
+2025-07-27 18:20:08 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//button[normalize-space()='Save']")
+2025-07-27 18:20:10 - orangehrm.test_admin.test_add_user - INFO - The element '('xpath', "//div/p[normalize-space()='Success']")' is visible.
+2025-07-27 18:20:13 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='tab']/a[normalize-space()='Personal Details']")
+2025-07-27 18:20:14 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//span[normalize-space()='Admin']")
+2025-07-27 18:20:16 - orangehrm.test_admin.test_add_user - INFO - The element '('xpath', "//h5[normalize-space()='System Users']")' is visible.
+2025-07-27 18:20:16 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//div[@class='orangehrm-header-container']/button")
+2025-07-27 18:20:18 - orangehrm.test_admin.test_add_user - INFO - The element '('xpath', "//h6[normalize-space()='Add User']")' is visible.
+2025-07-27 18:20:18 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//label[contains(text(),'User Role')]/../../..//div[@class='oxd-select-text-input']")
+2025-07-27 18:20:18 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[normalize-space()='ESS']")
+2025-07-27 18:20:18 - orangehrm.test_admin.test_add_user - INFO - Entering text 'Peter Ben Parker' in element: ('xpath', "//label[text()='Employee Name']/../../..//input")
+2025-07-27 18:20:20 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[contains(text(),'Peter Ben Parker')]")
+2025-07-27 18:20:20 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//label[contains(text(),'Status')]/../../..//div[@class='oxd-select-text-input']")
+2025-07-27 18:20:21 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//div[@role='option']/span[normalize-space()='Enabled']")
+2025-07-27 18:20:21 - orangehrm.test_admin.test_add_user - INFO - Entering text 'Spiderman' in element: ('xpath', "//label[text()='Username']/../../..//input")
+2025-07-27 18:20:22 - orangehrm.test_admin.test_add_user - INFO - Entering text 'spiderman@1' in element: ('xpath', "//label[text()='Password']/../../..//input[@type='password']")
+2025-07-27 18:20:22 - orangehrm.test_admin.test_add_user - INFO - Entering text 'spiderman@1' in element: ('xpath', "//label[text()='Confirm Password']/../../..//input[@type='password']")
+2025-07-27 18:20:23 - orangehrm.test_admin.test_add_user - INFO - Clicking on element: ('xpath', "//button[normalize-space()='Save']")
+2025-07-27 18:20:25 - orangehrm.test_admin.test_add_user - INFO - The element '('xpath', "//div/p[normalize-space()='Success']")' is visible.
+2025-07-27 18:20:25 - orangehrm.test_admin.test_add_user - INFO - test_add_user completed successfully

@@ -5,10 +5,10 @@ from orangehrm_automation.utilities.logger import setup_logger
 
 
 class BasePage:
-    def __init__(self, driver):
+    def __init__(self, driver, logger=None):
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
-        self.logger = setup_logger(name=self.__class__.__name__)
+        self.logger = logger or setup_logger()
 
     def click(self, locator):
         try:

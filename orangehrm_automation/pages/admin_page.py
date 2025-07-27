@@ -1,8 +1,13 @@
 from orangehrm_automation.pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 
+
 class AdminPage(BasePage):
 
+    def __init__(self, driver, logger):
+        super().__init__(driver, logger)
+
+    # Locators
     ADMIN_TAB = (By.XPATH, "//span[normalize-space()='Admin']")
     ADMIN_PAGE_TITLE = (By.XPATH, "//h5[normalize-space()='System Users']")
     # Add User Locator

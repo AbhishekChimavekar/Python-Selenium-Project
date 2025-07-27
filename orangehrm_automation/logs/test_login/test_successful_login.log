@@ -1,5 +1,6 @@
-2025-07-14 18:50:00 - orangehrm_test_successful_login - INFO - Logger initialized for orangehrm_test_successful_login
-2025-07-14 18:50:06 - orangehrm_test_successful_login - INFO - Entering text 'Admin' in element: ('name', 'username')
-2025-07-14 18:50:06 - orangehrm_test_successful_login - INFO - Entering text 'admin123' in element: ('name', 'password')
-2025-07-14 18:50:07 - orangehrm_test_successful_login - INFO - Clicking on element: ('xpath', "//button[@type='submit']")
-2025-07-14 18:50:08 - orangehrm_test_successful_login - INFO - test_successful_login completed successfully
+2025-07-27 18:20:33 - orangehrm.test_login.test_successful_login - INFO - Logger initialized for test_successful_login
+2025-07-27 18:20:33 - orangehrm.test_login.test_successful_login - INFO - Starting test_successful_login
+2025-07-27 18:20:38 - orangehrm.test_login.test_successful_login - INFO - Entering text 'Admin' in element: ('name', 'username')
+2025-07-27 18:20:38 - orangehrm.test_login.test_successful_login - INFO - Entering text 'admin123' in element: ('name', 'password')
+2025-07-27 18:20:38 - orangehrm.test_login.test_successful_login - INFO - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-07-27 18:20:40 - orangehrm.test_login.test_successful_login - INFO - test_successful_login completed successfully

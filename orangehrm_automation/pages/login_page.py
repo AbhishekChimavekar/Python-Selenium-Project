@@ -2,17 +2,17 @@ from selenium.webdriver.common.by import By
 from orangehrm_automation.pages.base_page import BasePage
 
 
-
 class LoginPage(BasePage):
+
+    def __init__(self, driver, logger=None):
+        super().__init__(driver, logger)
+        self.driver.get("https://opensource-demo.orangehrmlive.com/")
+
     # Locators
     USERNAME_FIELD = (By.NAME, "username")
     PASSWORD_FIELD = (By.NAME, "password")
     LOGIN_BUTTON = (By.XPATH, "//button[@type='submit']")
     ERROR_MESSAGE = (By.XPATH, "//div[contains(@class, 'oxd-alert')]")
-
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver.get("https://opensource-demo.orangehrmlive.com/")
 
     def enter_username(self, username):
         self.send_keys(self.USERNAME_FIELD, username)
