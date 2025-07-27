@@ -6,7 +6,7 @@ class AdminPage(BasePage):
     ADMIN_TAB = (By.XPATH, "//span[normalize-space()='Admin']")
     ADMIN_PAGE_TITLE = (By.XPATH, "//h5[normalize-space()='System Users']")
     # Add User Locator
-    ADD_USER_BUTTON = (By.XPATH, "//i[@class='oxd-icon bi-chevron-left']")
+    ADD_USER_BUTTON = (By.XPATH, "//div[@class='orangehrm-header-container']/button")
     ADD_USER_TITLE = (By.XPATH, "//h6[normalize-space()='Add User']")
     USER_ROLE_DROPDOWN = (By.XPATH, "//label[contains(text(),'User Role')]/../../..//div[@class='oxd-select-text-input']")
     USER_ADMIN_ROLE = (By.XPATH, "//div[@role='option']/span[normalize-space()='Admin']")

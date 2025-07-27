@@ -26,3 +26,4 @@ def test_add_user(setup):
     admin_page = AdminPage(driver)
     admin_page.add_user("Wade Winston Wilson", "ESS", "Enabled", "Deadpool",
                         "deadpool@1", "deadpool@1")
+    logger.info("test_add_user completed successfully")
